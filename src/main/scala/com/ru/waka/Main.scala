@@ -37,5 +37,14 @@ object Main {
     )
     println(res2)
     println(res2.sequence)
+    /*
+     * [info] Running com.ru.waka.Main
+     * \/-(List(H, e, l, l, o))
+     * List(\/-(H), \/-(e), \/-(l), \/-(l), \/-(o), -\/(java.lang.Exception: World))
+     * -\/(java.lang.Exception: World)
+     * List(Some(H), Some(e), Some(l), Some(l), Some(o))
+     * Some(List(H, e, l, l, o))
+     * [success] Total time: 2 s, completed 2018/05/30 17:26:02
+     */
   }
 }
