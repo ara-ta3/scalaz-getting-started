@@ -1,5 +1,4 @@
-SBT=sbt
-
+SBT=sbt/bin/sbt
 
 run:
 	$(SBT) run
