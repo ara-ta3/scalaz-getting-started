@@ -1,6 +1,6 @@
-scalaVersion := "2.12.5"
+scalaVersion := "2.13.4"
 
-val scalazVersion = "7.2.27"
+val scalazVersion = "7.3.3"
 val scalazScalaCheckBindingVersion = s"$scalazVersion-scalacheck-1.14"
 
 libraryDependencies ++= Seq(
